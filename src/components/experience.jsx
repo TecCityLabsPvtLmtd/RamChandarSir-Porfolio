@@ -56,7 +56,7 @@ export default function Experience() {
         <div className="reveal flex items-center gap-4 mb-20">
           {/* <span className="text-[11px] tracking-[0.4em] uppercase text-accent">03</span> */}
           <div className="w-12 h-px bg-accent/40" />
-          <span className="text-[11px] tracking-[0.4em] uppercase text-cream/30">Experience & Achievements</span>
+          <span className="text-[11px] tracking-[0.4em] uppercase t-cream/30">Experience & Achievements</span>
         </div>
 
         <h2 className="reveal font-display text-5xl md:text-6xl font-light mb-20 leading-tight">
@@ -79,10 +79,10 @@ export default function Experience() {
               >
                 {/* Year bubble (mobile: left side, desktop: center) */}
                 <div className="shrink-0 md:absolute md:left-1/2 md:-translate-x-1/2 flex flex-col items-center z-10">
-                  <div className="w-8 h-8 rounded-full border-2 border-accent bg-charcoal flex items-center justify-center">
+                  <div className="w-8 h-8 rounded-full border-2 border-accent bg-primary flex items-center justify-center">
                     <div className="w-2 h-2 rounded-full bg-accent" />
                   </div>
-                  <span className="text-[10px] tracking-[0.2em] text-accent/70 mt-2 whitespace-nowrap hidden md:block">
+                  <span className="text-[12px] tracking-[0.2em] text-accent/70 mt-2 whitespace-nowrap hidden md:block">
                     {item.year}
                   </span>
                 </div>
@@ -97,13 +97,13 @@ export default function Experience() {
                     {/* Mobile year */}
                     <span className="text-[10px] tracking-[0.2em] text-accent/60 md:hidden">{item.year}</span>
 
-                    <h3 className="font-display text-2xl text-cream mt-1 font-light">
+                    <h3 className="font-display text-2xl t-cream mt-1 font-light">
                       {item.title}
                     </h3>
                     <p className="text-xs tracking-[0.2em] uppercase text-accent/60 mt-1 mb-4">
                       {item.company}
                     </p>
-                    <p className="text-sm text-cream/50 leading-relaxed font-light">
+                    <p className="text-sm t-cream/50 leading-relaxed font-light">
                       {item.description}
                     </p>
                     <div className="flex flex-wrap gap-2 mt-4">

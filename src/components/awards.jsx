@@ -40,7 +40,7 @@ export default function Awards() {
         <div className="reveal flex items-center gap-4 mb-20">
           {/* <span className="text-[11px] tracking-[0.4em] uppercase text-accent">05</span> */}
           <div className="w-12 h-px bg-accent/40" />
-          <span className="text-[11px] tracking-[0.4em] uppercase text-cream/30">Awards &amp; Recognition</span>
+          <span className="text-[11px] tracking-[0.4em] uppercase t-cream/30">Awards &amp; Recognition</span>
         </div>
 
         <h2 className="reveal font-display text-5xl md:text-6xl font-light mb-20 leading-tight">
@@ -52,29 +52,29 @@ export default function Awards() {
           {awards.map((award, i) => (
             <div
               key={i}
-              className="reveal group relative border-t border-cream/5 last:border-b hover:border-accent/20 transition-colors duration-300"
+              className="reveal group relative border-t b-default/5 last:border-b hover:border-accent/20 transition-colors duration-300"
               style={{ transitionDelay: `${i * 0.1}s` }}
             >
               <div className="flex flex-col md:flex-row md:items-center gap-6 py-10 px-2">
                 {/* Rank */}
-                <span className="font-display text-5xl text-accent/10 group-hover:text-accent/20 transition-colors duration-300 font-light w-16 shrink-0">
+                <span className="font-display text-5xl text-accent/20 group-hover:text-accent/40 transition-colors duration-300 font-light w-16 shrink-0">
                   {award.rank}
                 </span>
 
                 {/* Title block */}
                 <div className="flex-1">
-                  <h3 className="font-display text-3xl md:text-4xl text-cream font-light group-hover:text-accent transition-colors duration-400">
+                  <h3 className="font-display text-3xl md:text-4xl t-cream font-light group-hover:text-accent transition-colors duration-400">
                     {award.title}
                   </h3>
                   <div className="flex flex-wrap items-center gap-4 mt-2">
-                    <span className="text-xs tracking-[0.2em] uppercase text-cream/30">{award.body}</span>
+                    <span className="text-xs tracking-[0.2em] uppercase t-cream/30">{award.body}</span>
                     <span className="w-1 h-1 rounded-full bg-accent/30" />
                     <span className="text-xs tracking-[0.2em] uppercase text-accent/50">{award.year}</span>
                   </div>
                 </div>
 
                 {/* Description */}
-                <p className="md:max-w-xs text-sm text-cream/40 leading-relaxed font-light">
+                <p className="md:max-w-xs text-sm t-cream/40 leading-relaxed font-light">
                   {award.description}
                 </p>
 

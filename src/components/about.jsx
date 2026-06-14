@@ -36,7 +36,7 @@ export default function About() {
               ].map((stat) => (
                 <div key={stat.label} className="group">
                   <p className="font-display text-4xl t-accent font-light">{stat.number}</p>
-                  <p className="text-xs t-faint tracking-[0.15em] uppercase mt-1">{stat.label}</p>
+                  <p className="text-xs t-primary tracking-[0.15em] uppercase mt-1">{stat.label}</p>
                 </div>
               ))}
             </div>
@@ -44,19 +44,19 @@ export default function About() {
 
           {/* RIGHT — Story */}
           <div className="reveal-right space-y-8" style={{ transitionDelay: '0.2s' }}>
-            <p className="text-lg t-muted leading-relaxed font-light">
+            <p className="text-lg t-primary leading-relaxed font-light">
               "A seasoned management professional and thought leader, 
               I bring nearly two decades of cross-industry experience spanning Information Technology, 
               HR Consulting, and Shipping & Logistics — with a proven ability to build, scale, and lead high-performing teams."
             </p>
 
-            <p className="text-base t-faint leading-relaxed font-light">
+            <p className="text-base t-muted leading-relaxed font-light">
               "I am a strategic, revenue-focused leader with deep expertise in 
               shaping and executing business strategies, strengthening client relationships, 
               and aligning operations with organisational goals to deliver measurable outcomes."
             </p>
 
-            <p className="text-base t-faint leading-relaxed font-light">
+            <p className="text-base t-muted leading-relaxed font-light">
               "As an entrepreneur, trainer, and public speaker, 
               I have delivered sessions at over 40 colleges across India and trained 3,000+ corporate leaders
               — driven by a deep commitment to continuous learning and meaningful impact."

@@ -31,14 +31,14 @@ export default function Certifications() {
   const ref = useReveal()
 
   return (
-    <section id="certifications" ref={ref} className="py-32 bg-charcoal">
+    <section id="certifications" ref={ref} className="py-32 bg-primary">
       <div className="max-w-7xl mx-auto px-6 md:px-16">
 
         {/* Section label */}
         <div className="reveal flex items-center gap-4 mb-20">
           {/* <span className="text-[11px] tracking-[0.4em] uppercase text-accent">04</span> */}
           <div className="w-12 h-px bg-accent/40" />
-          <span className="text-[11px] tracking-[0.4em] uppercase text-cream/30">Certifications</span>
+          <span className="text-[11px] tracking-[0.4em] uppercase t-cream/30">Certifications</span>
         </div>
 
         <h2 className="reveal font-display text-5xl md:text-6xl font-light mb-4 leading-tight">
@@ -55,7 +55,7 @@ export default function Certifications() {
           {certs.map((cert, i) => (
             <div
               key={i}
-              className="reveal group bg-charcoal p-8 hover:bg-surface transition-all duration-400 cursor-default"
+              className="reveal group bg-primary p-8 hover:bg-surface transition-all duration-400 cursor-default"
               style={{ transitionDelay: `${i * 0.08}s` }}
             >
               {/* Icon */}
@@ -70,13 +70,13 @@ export default function Certifications() {
                 </span>
               </div>
 
-              <h3 className="font-display text-xl text-cream font-light leading-snug mb-2">
+              <h3 className="font-display text-xl t-cream font-light leading-snug mb-2">
                 {cert.title}
               </h3>
-              <p className="text-xs tracking-[0.15em] uppercase text-cream/40 mb-3">
+              <p className="text-xs tracking-[0.15em] uppercase t-cream/40 mb-3">
                 {cert.issuer}
               </p>
-              <p className="text-[10px] text-cream/20 font-mono">{cert.id}</p>
+              <p className="text-[10px] t-cream/20 font-mono">{cert.id}</p>
 
               {/* Bottom accent line */}
               <div className="mt-6 w-0 h-px bg-accent group-hover:w-full transition-all duration-500" />

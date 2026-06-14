@@ -68,7 +68,7 @@ export default function Skills() {
         <div className="reveal flex items-center gap-4 mb-20">
           {/* <span className="text-[11px] tracking-[0.4em] uppercase text-accent">07</span> */}
           <div className="w-12 h-px bg-accent/40" />
-          <span className="text-[11px] tracking-[0.4em] uppercase text-cream/30">Skills</span>
+          <span className="text-[11px] tracking-[0.4em] uppercase t-cream/30">Skills</span>
         </div>
 
         <div className="grid md:grid-cols-2 gap-16 lg:gap-24 items-center">
@@ -122,18 +122,18 @@ export default function Skills() {
                 >
                   <div className="flex items-center gap-3 mb-3">
                     <div className="w-3 h-3" style={{ background: i === 0 ? '#0d9488' : i === 1 ? '#0b8076' : '#0f766e' }} />
-                    <h3 className="text-sm tracking-[0.2em] uppercase text-cream/70 font-medium">
+                    <h3 className="text-sm tracking-[0.2em] uppercase t-cream/70 font-medium">
                       {tier.label}
                     </h3>
                   </div>
-                  <p className="text-xs text-cream/30 mb-4 font-light tracking-wide">
+                  <p className="text-xs t-cream/30 mb-4 font-light tracking-wide">
                     {tier.sublabel}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {tier.skills.map((skill) => (
                       <span
                         key={skill}
-                        className="text-[11px] tracking-widest px-3 py-1.5 border border-accent/10 text-accent/50 hover:border-accent/30 hover:text-accent/70 transition-all duration-300 cursor-default"
+                        className="text-[11px] tracking-widest px-3 py-1.5 border border-accent/10 text-accent/70 hover:border-accent/30 hover:text-accent/70 transition-all duration-300 cursor-default"
                       >
                         {skill}
                       </span>

@@ -48,7 +48,7 @@ export default function ClientAppreciation() {
         <div className="reveal flex items-center gap-4 mb-20">
           {/* <span className="text-[11px] tracking-[0.4em] uppercase text-accent">06</span> */}
           <div className="w-12 h-px bg-accent/40" />
-          <span className="text-[11px] tracking-[0.4em] uppercase text-cream/30">Client Appreciation</span>
+          <span className="text-[11px] tracking-[0.4em] uppercase t-cream/30">Client Appreciation</span>
         </div>
 
         <div className="grid md:grid-cols-2 gap-16 items-start">
@@ -60,7 +60,7 @@ export default function ClientAppreciation() {
               <br />
               <em className="text-accent">Say</em>
             </h2>
-            <p className="text-sm text-cream/30 font-light leading-relaxed max-w-sm">
+            <p className="text-sm t-cream/20 font-light leading-relaxed max-w-sm">
               Relationships built on trust, results, and genuine care for every client's success.
             </p>
 
@@ -78,16 +78,16 @@ export default function ClientAppreciation() {
                 >
                   <div
                     className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-medium shrink-0 transition-colors duration-300 ${
-                      active === i ? 'bg-accent text-charcoal' : 'bg-cream/5 text-cream/30'
+                      active === i ? 'bg-accent text-charcoal' : 'bg-cream/5 t-cream/30'
                     }`}
                   >
                     {t.initials}
                   </div>
                   <div className="text-left">
-                    <p className={`text-sm transition-colors duration-300 ${active === i ? 'text-cream' : 'text-cream/40'}`}>
+                    <p className={`text-sm transition-colors duration-300 ${active === i ? 't-cream' : 't-cream/40'}`}>
                       {t.name}
                     </p>
-                    <p className="text-[10px] tracking-[0.15em] uppercase text-cream/20">{t.company}</p>
+                    <p className="text-[10px] tracking-[0.15em] uppercase t-cream/20">{t.company}</p>
                   </div>
                 </button>
               ))}
@@ -107,7 +107,7 @@ export default function ClientAppreciation() {
                 className="transition-all duration-500"
                 style={{ animation: 'fadeUp 0.5s ease' }}
               >
-                <p className="font-display text-2xl md:text-3xl text-cream/80 font-light leading-relaxed italic">
+                <p className="font-display text-2xl md:text-3xl t-cream/80 font-light leading-relaxed italic">
                   {testimonials[active].feedback}
                 </p>
 
@@ -116,8 +116,8 @@ export default function ClientAppreciation() {
                     {testimonials[active].initials}
                   </div>
                   <div>
-                    <p className="text-sm text-cream/70 font-medium">{testimonials[active].name}</p>
-                    <p className="text-xs text-cream/30 tracking-wide">
+                    <p className="text-sm t-cream/70 font-medium">{testimonials[active].name}</p>
+                    <p className="text-xs t-cream/10 tracking-wide">
                       {testimonials[active].role} · {testimonials[active].company}
                     </p>
                   </div>

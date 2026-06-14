@@ -28,7 +28,8 @@ export default function Contact() {
     <section id="contact" ref={ref} className="py-32 bg-charcoal relative overflow-hidden">
       {/* Large background text */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden">
-        <span className="font-display text-[18vw] leading-none text-cream/[0.018] font-light whitespace-nowrap">
+        <span className="font-display text-[18vw] leading-none t-faint/[0.15] font-light whitespace-nowrap "
+        style={{ color: 'var(--text-faint)', opacity: 0.07 }}>
           Let's Talk
         </span>
       </div>
@@ -42,7 +43,7 @@ export default function Contact() {
         <div className="reveal flex items-center gap-4 mb-20">
           {/* <span className="text-[11px] tracking-[0.4em] uppercase text-[#0d9488]"></span> */}
           <div className="w-12 h-px bg-accent/40" />
-          <span className="text-[11px] tracking-[0.4em] uppercase text-cream/30">Get in Touch</span>
+          <span className="text-[11px] tracking-[0.4em] uppercase text-muted/30">Get in Touch</span>
         </div>
 
         <div className="grid md:grid-cols-2 gap-16 lg:gap-32 items-start">
@@ -54,7 +55,7 @@ export default function Contact() {
               <br />
               <em className="text-accent">Conversation</em>
             </h2>
-            <p className="mt-8 text-base text-cream/40 leading-relaxed font-light max-w-sm">
+            <p className="mt-8 text-base text-primary leading-relaxed font-light max-w-sm">
               Whether you're exploring a partnership, seeking a 
               stratergic leader, or looking for a mentor - every
               great outcome starts with one conversation.
@@ -80,10 +81,10 @@ export default function Contact() {
 
                 {/* Text */}
                 <div className="flex-1">
-                  <p className="text-[10px] tracking-[0.3em] uppercase text-cream/30 mb-1">
+                  <p className="text-[10px] tracking-[0.3em] uppercase text-muted mb-1">
                     {link.type}
                   </p>
-                  <p className="text-sm text-cream/60 group-hover:text-cream transition-colors duration-300">
+                  <p className="text-sm text-faint group-hover:text-cream transition-colors duration-300">
                     {link.value}
                   </p>
                 </div>
@@ -98,7 +99,7 @@ export default function Contact() {
             {/* Availability note */}
             <div className="flex items-center gap-3 pt-4">
               <div className="w-2 h-2 rounded-full bg-[#4ade80] animate-pulse" />
-              <span className="text-xs text-cream/30 tracking-wide">
+              <span className="text-xs text-muted/30 tracking-wide">
                 Currently open to new opportunities
               </span>
             </div>
@@ -108,10 +109,10 @@ export default function Contact() {
         {/* Footer bar */}
         <div className="mt-32 pt-8 border-t border-cream/5 flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-xl text-accent/60 italic tracking-widest">RAMCHANDAR D</span>
-          <p className="text-[10px] tracking-[0.3em] uppercase text-cream/15">
+          <p className="text-[10px] tracking-[0.3em] uppercase text-faint/15">
             © {new Date().getFullYear()} · Founder & CEO · TecCity Labs
           </p>
-          <p className="text-[10px] tracking-[0.2em] uppercase text-cream/15">
+          <p className="text-[10px] tracking-[0.2em] uppercase text-faint/15">
             Built with intention
           </p>
         </div>

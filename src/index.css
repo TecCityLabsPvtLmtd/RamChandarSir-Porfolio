@@ -20,10 +20,12 @@
   --bg-primary:    #0e0e0e;
   --bg-secondary:  #111111;
   --bg-surface:    #161616;
-  --bg-surface2:   #1e1e1e;
+  --bg-surface2:   #1e1e1e; 
+  --bg-cream:      #f0ece4;
   --text-primary:  #f0ece4;
   --text-muted:    rgba(240, 236, 228, 0.50);
   --text-faint:    rgba(240, 236, 228, 0.25);
+  --text-cream:    #f0ece4;
   --accent:        #0d9488;
   --accent-light:  #14b8a6;
   --accent-dark:   #0f766e;
@@ -38,18 +40,20 @@
    LIGHT THEME
    ============================================ */
 .theme-light {
-  --bg-primary:    #d4d2d2;
-  --bg-secondary:  #bebebe;
-  --bg-surface:    #6f6f6f;
-  --bg-surface2:   #9d9d9d;
-  --text-primary:  #1a1a1a;
-  --text-muted:    rgba(16, 16, 16, 0.729);
-  --text-faint:    rgba(0, 0, 0, 0.536);
+  --bg-primary:    #F7F4EE;
+  --bg-secondary:  #EFE9DC;
+  --bg-surface:    #ffffff;
+  --bg-surface2:   #D8CEBF;
+  --bg-cream:      #403b2f;
+  --text-primary:  #12110f;
+  --text-muted:    rgba(26, 24, 20, 0.55);
+  --text-faint:    rgba(26, 24, 20, 0.32);
+  --text-cream:    #21201f;
   --accent:        #0d9488;
-  --accent-light:  #0f766e;
-  --accent-dark:   #134e4a;
-  --border:        rgba(26, 26, 26, 0.08);
-  --border-accent: rgba(13, 148, 136, 0.35);
+  --accent-light:  #0f9e91;
+  --accent-dark:   #0b7d72;
+  --border:        rgba(26, 24, 20, 0.08);
+  --border-accent: rgba(13, 148, 136, 0.28);
 
   background-color: var(--bg-primary);
   color: var(--text-primary);
@@ -176,6 +180,7 @@ body {
 .t-muted   { color: var(--text-muted); }
 .t-faint   { color: var(--text-faint); }
 .t-accent  { color: var(--accent); }
+.t-cream   { color: var(--text-cream); }
 
 /* Borders */
 .b-default { border-color: var(--border); }
@@ -187,6 +192,7 @@ body {
 .bg-surface      { background-color: var(--bg-surface); }
 .bg-surface2     { background-color: var(--bg-surface2); }
 .bg-accent       { background-color: var(--accent); }
+.bg-cream       { background-color: var(--bg-cream); }
 .bg-accent-faint { background-color: color-mix(in srgb, var(--accent) 8%, transparent); }
 
 /* Sections — alternate bg automatically */
@@ -198,3 +204,12 @@ body {
 .theme-light section:nth-child(even) {
   background-color: var(--bg-secondary);
 }
+
+/* .theme-dark section:not([class*="bg-"]),
+.theme-light section:not([class*="bg-"]) {
+  background-color: var(--bg-primary);
+}
+.theme-dark section:nth-child(even):not([class*="bg-"]),
+.theme-light section:nth-child(even):not([class*="bg-"]) {
+  background-color: var(--bg-secondary);
+} */
