@@ -213,3 +213,7 @@ body {
 .theme-light section:nth-child(even):not([class*="bg-"]) {
   background-color: var(--bg-secondary);
 } */
+
+/* Certifications background overlay */
+.theme-dark .cert-overlay  { opacity: 0.75; }
+.theme-light .cert-overlay { opacity: 0.65; }
