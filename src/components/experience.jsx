@@ -23,7 +23,7 @@ const timelineItems = [
     tags: ['Founder', 'Revolutionist'],
   },
   {
-    year: '2015-2018',
+    year: '2015-2022',
     title: 'Group CEO ',
     company: 'SAM Business Group',
     description: ' a 1000 + employee business conglomerate in to Shipping & Logistics, Beauty Product, IT Consulting and Ecommerce, where i merged to extend my networks and grow exponentially',
