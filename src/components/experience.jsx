@@ -4,9 +4,9 @@ const timelineItems = [
   {
     year: '2002-2006',
     title: 'Team Leader Operations',
-    company: ' Net Vision Cyber Tech ',
-    description: 'A Leading US based BPO, where I started here as a BPO servicing and took lead of a team of 20+ members reporting at service',
-    tags: ['BPO', 'Team Visionary'],
+    company: ' Compu Vision Consulting (USA) ',
+    description: "My career began with a leading US-based BPO, where I developed strong operational and people-management skills, eventually leading a high-performing team of 20+ members and contributing to service excellence and business growth. As a key member of Compu Vision Consulting USA's India operations, I led end-to-end recruitment, talent acquisition, and business development initiatives that significantly contributed to the companys growth. Over three years, I helped scale the organization from 5 to over 50 employees by building strong recruitment processes, leading hiring teams, and aligning talent strategies with business objectives. I successfully recruited and placed more than 80 software professionals for US operations through H-1B sponsorship programs and conducted large-scale recruitment drives across major Indian cities, including Chennai, Bangalore, Hyderabad, Mumbai, Delhi, and Pune. My contributions in recruitment leadership, team management, marketing, and international talent acquisition strengthened the companys market presence and supported its expansion in both India and the United States.",
+    tags: ['Recruitment', 'Business Growth', 'Talent Acquisition Leadership'],
   },
   {
     year: '2006-2012',
@@ -19,14 +19,14 @@ const timelineItems = [
     year: '2012-2015',
     title: 'Director & Founder',
     company: 'Quspec Consulting Pvt Ltd',
-    description: 'This where i put i experinces for testing out my capabilities to stand on my own and lead a whole company.',
+    description: 'This venture marked a significant milestone in my career, serving as my first successful entrepreneurial endeavor after 12 years of experience in recruitment, operations, team management, and business development. Through the acquisition and strategic rebranding of the company as Quspec Consulting, I successfully led and grew the organization for over four years, building a strong market presence. This experience provided comprehensive exposure to business ownership, including strategy, client acquisition, recruitment, operations, financial management, and organizational growth, while strengthening my ability to lead and scale a business independently.',
     tags: ['Founder', 'Revolutionist'],
   },
   {
     year: '2015-2022',
     title: 'Group CEO ',
     company: 'SAM Business Group',
-    description: ' a 1000 + employee business conglomerate in to Shipping & Logistics, Beauty Product, IT Consulting and Ecommerce, where i merged to extend my networks and grow exponentially',
+    description: "As Group CEO of a diversified conglomerate with over 1,000 employees across Shipping & Logistics, IT Consulting, E-Commerce, and Consumer Products, I led corporate strategy, business growth, operational excellence, and P&L management across multiple business verticals. I drove market expansion, digital transformation, leadership development, and stakeholder engagement, contributing to sustained growth and organizational performance. Additionally, as an Advisor and later Board Director of a fast-growing IT startup, I played a key role in scaling operations, strengthening HR and business processes, expanding international operations, securing major clients, and supporting the company's achievement of ISO certification, 'Great Place to Work' recognition, and international industry accolades.",
     tags: ['CEO', 'Team-Carry'],
   },
   {
@@ -40,7 +40,7 @@ const timelineItems = [
     year: '2024 - till Date',
     title: ' CEO & Co-Founder ',
     company: 'Teccity Labs Pvt Ltd',
-    description: 'started and IT services start-up in international level and completed many projects along side with interesting products.',
+    description: "Founded and scaled an international IT services startup specializing in Software Testing, DevOps, Full-Stack Development, and Digital Transformation solutions for global clients. Led the delivery of innovative technology services and products across diverse industries while driving the company's evolution into a niche provider of Digital Accessibility Services. Guided by a mission to digitally transform 1 million businesses, the organization empowers enterprises, SMEs, and startups with scalable solutions that enhance efficiency, accessibility, and long-term growth.",
     tags: ['International', 'Divide-n-Conquer'],
   },
 ]
