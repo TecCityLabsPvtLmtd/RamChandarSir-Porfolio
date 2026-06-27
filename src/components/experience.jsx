@@ -19,7 +19,7 @@ const timelineItems = [
     year: '2012-2015',
     title: 'Director & Founder',
     company: 'Quspec Consulting Pvt Ltd',
-    description: 'Compu Vision was later named to Quspec. This venture marked a significant milestone in my career, serving as my first successful entrepreneurial endeavor after 12 years of experience in recruitment, operations, team management, and business development. Through the acquisition and strategic rebranding of the company as Quspec Consulting, I successfully led and grew the organization for over four years, building a strong market presence. This experience provided comprehensive exposure to business ownership, including strategy, client acquisition, recruitment, operations, financial management, and organizational growth, while strengthening my ability to lead and scale a business independently.',
+    description: 'This venture marked a significant milestone in my career, serving as my first successful entrepreneurial endeavor after 12 years of experience in recruitment, operations, team management, and business development. Through the acquisition and strategic rebranding of the company as Quspec Consulting, I successfully led and grew the organization for over four years, building a strong market presence. This experience provided comprehensive exposure to business ownership, including strategy, client acquisition, recruitment, operations, financial management, and organizational growth, while strengthening my ability to lead and scale a business independently.',
     tags: ['Founder', 'Revolutionist'],
   },
   {
