@@ -56,7 +56,7 @@ export default function Hero() {
 
           <div>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[1.05] font-light">
-              Your
+              {/* Your */}
               <br />
               <em className="text-accent not-italic">Ramchandar Duraisamy</em>
             </h1>
