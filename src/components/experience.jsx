@@ -4,14 +4,14 @@ const timelineItems = [
   {
     year: '2002-2006',
     title: 'Team Leader Operations',
-    company: ' Compu Vision Consulting (USA) ',
+    company: 'Net Vision Cybertech ',
     description: "My career began with a leading US-based BPO, where I developed strong operational and people-management skills, eventually leading a high-performing team of 20+ members and contributing to service excellence and business growth. As a key member of Compu Vision Consulting USA's India operations, I led end-to-end recruitment, talent acquisition, and business development initiatives that significantly contributed to the companys growth. Over three years, I helped scale the organization from 5 to over 50 employees by building strong recruitment processes, leading hiring teams, and aligning talent strategies with business objectives. I successfully recruited and placed more than 80 software professionals for US operations through H-1B sponsorship programs and conducted large-scale recruitment drives across major Indian cities, including Chennai, Bangalore, Hyderabad, Mumbai, Delhi, and Pune. My contributions in recruitment leadership, team management, marketing, and international talent acquisition strengthened the companys market presence and supported its expansion in both India and the United States.",
     tags: ['Recruitment', 'Business Growth', 'Talent Acquisition Leadership'],
   },
   {
     year: '2006-2012',
     title: 'Resource Manager Global Recruitment ',
-    company: ' Basco System Pvt Ltd',
+    company: 'Compu Vision',
     description: 'A Subisidiary of Compu Vision Consulting USA where my communication skills were acknowledge and recongnised as an important asset to for reqruitment.',
     tags: ['Reqruiter', 'Freshers-Lead'],
   },
@@ -19,7 +19,7 @@ const timelineItems = [
     year: '2012-2015',
     title: 'Director & Founder',
     company: 'Quspec Consulting Pvt Ltd',
-    description: 'This venture marked a significant milestone in my career, serving as my first successful entrepreneurial endeavor after 12 years of experience in recruitment, operations, team management, and business development. Through the acquisition and strategic rebranding of the company as Quspec Consulting, I successfully led and grew the organization for over four years, building a strong market presence. This experience provided comprehensive exposure to business ownership, including strategy, client acquisition, recruitment, operations, financial management, and organizational growth, while strengthening my ability to lead and scale a business independently.',
+    description: 'Compu Vision was later named to Quspec. This venture marked a significant milestone in my career, serving as my first successful entrepreneurial endeavor after 12 years of experience in recruitment, operations, team management, and business development. Through the acquisition and strategic rebranding of the company as Quspec Consulting, I successfully led and grew the organization for over four years, building a strong market presence. This experience provided comprehensive exposure to business ownership, including strategy, client acquisition, recruitment, operations, financial management, and organizational growth, while strengthening my ability to lead and scale a business independently.',
     tags: ['Founder', 'Revolutionist'],
   },
   {

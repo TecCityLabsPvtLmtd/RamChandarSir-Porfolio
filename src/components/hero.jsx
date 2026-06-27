@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import ramsir from '../assets/ramchandar.png'
+import ramsir from '../assets/ram_sir_3.png'
 
 export default function Hero() {
   const leftRef = useRef(null)
